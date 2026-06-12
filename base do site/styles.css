@@ -1,3 +1,37 @@
 body {
     background-color: antiquewhite;
 }
+header{
+    background:linear-gradient(to right, #7bc6e1, #1a54b1);
+    font-style: italic;
+    font-size: xx-large;
+    align-content: center;
+   text-align: center;
+}
+h1{
+    color: wheat;
+    text-decoration-line: underline;
+}
+a{
+    display: flex; 
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    text-decoration: none !important;
+    color: wheat !important;
+    font-family: sans-serif;
+    font-size: 20px;
+    transition: 0.3s;
+
+    /*fazer um botao envolta*/
+    background-color: lightslategrey;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+a:hover{
+opacity: 0.7;
+}
