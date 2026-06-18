@@ -1,12 +1,17 @@
 body {
-    background-color: antiquewhite;
+     background:linear-gradient(to right, #7bc6e1, #1a54b1)
 }
 header{
-    background:linear-gradient(to right, #7bc6e1, #1a54b1);
+    background-image: url("../../../Pictures/fundo starew.jpg");
+    background-size: cover;
+    background-position:top ;
     font-style: italic;
     font-size: xx-large;
     align-content: center;
    text-align: center;
+ 
+  
+   
 }
 h1{
     color: wheat;
