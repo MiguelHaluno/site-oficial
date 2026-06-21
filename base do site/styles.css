@@ -4,9 +4,22 @@
     src: url('../assets/stardew_valley/MainFont.ttf') format('truetype');
 }
 
+    
+
+
 body {
-     background:linear-gradient(to right, #7bc6e1, #1a54b1);
-    font-family: "StardewValley";
+      background-color: #f5deb3; /* cor de pergaminho */
+    border: 4px solid #8b5a2b;
+    border-radius: 12px;
+    padding: 10px;
+
+    color: #3a220f;
+
+    box-shadow:
+        0 0 0 4px #d2a679,
+        6px 6px 0 rgba(0, 0, 0, 0.3);
+        
+   
 }
 header {
     background-image: url(https://image.api.playstation.com/vulcan/img/rnd/202010/1520/yPmlPNe9extT2AVsv90hOKmn.png);
@@ -20,6 +33,9 @@ header {
     align-items: center;
     min-height: 300px;  
 }
+main {
+
+}
 h1{
     color: rgb(126, 76, 3);
     font-family: "StardewValley";
@@ -32,7 +48,38 @@ h1{
          2px  2px 0 #703d03;
      text-align: center;
     font-size: 60px;
+    text-decoration: underline;
+    
 
+}
+h2{
+    color: rgb(126, 76, 3);
+    font-family: "StardewValley";
+    color: #ceac13;
+
+    text-shadow:
+        -2px -2px 0 #535204,
+         2px -2px 0 #000000,
+        -2px  2px 0 #000000,
+         2px  2px 0 #703d03;
+     text-align: center;
+    font-size: 40px;
+    text-decoration:underline;
+
+}
+h3{
+    color: rgb(126, 76, 3);
+    font-family: "StardewValley";
+    color: #ceac13;
+
+    text-shadow:
+        -2px -2px 0 #535204,
+         2px -2px 0 #000000,
+        -2px  2px 0 #000000,
+         2px  2px 0 #703d03;
+     text-align: center;
+    font-size: 40px;
+    text-decoration:underline;
 }
 a{
     display: flex; 
@@ -41,7 +88,6 @@ a{
     padding: 20px;
     text-decoration: none !important;
     color: rgb(82, 53, 0) !important;
-    font-family: "StardewValley";
     font-size: 20px;
     transition: 0.3s;
 
@@ -60,7 +106,7 @@ a{
     margin-bottom: 20px;
 
     color: #3a220f;
-    font-family: "StardewValley";
+
 
     display: inline-block;
     transition: all 0.3s ease;
@@ -68,6 +114,7 @@ a{
     display: flex;
     justify-content: center;
     gap: 30px;
+    
 
 }
 a:hover{
@@ -89,9 +136,52 @@ opacity: 0.7;
         align-items: center;
     justify-content: center;
     margin-bottom: 20px;
+    margin-top: 30px;
 }
 .menu-navegacao {
     display: flex;
     gap: 20px;
     margin-top: 20px;
+}
+div{
+  
+}
+.caixa-do-bolo{
+       background-color: #f5deb3; /* cor de pergaminho */
+    border: 4px solid #8b5a2b;
+    border-radius: 15px;
+    padding: 20px;
+    width: 100px;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: #3a220f;
+
+    box-shadow:
+        0 0 0 4px #d2a679,
+        6px 6px 0 rgba(0, 0, 0, 0.3);
+        width: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.bolinho{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.separador {
+    height: 50px;
+    background-image: url("https://stardewvalleywiki.com/mediawiki/images/1/1e/Wood_Fence.png");
+    background-repeat: repeat-x;
+    margin: 5pxpx 0;
+    margin-top: 10px;
+}
+li{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 24px;
 }
